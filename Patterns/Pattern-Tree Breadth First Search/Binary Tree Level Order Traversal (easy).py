@@ -9,6 +9,7 @@ Deque: BFS  Time  O(N), Space  O(N)
     10    3            [5]      
     5     2            []          [[12], [7, 1], [9, 10, 5]]
 '''
+#%%
 class TreeNode:
   def __init__(self, val):
     self.val = val
@@ -49,3 +50,6 @@ def main():
 
 
 main()
+
+
+# %%
