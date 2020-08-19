@@ -6,7 +6,7 @@ i   []
 def find_subsets(nums):
   subsets = []
   subsets.append([])
-  for i, ele in enumerate( nums):
+  for ele in  nums:
     # ls = 2 * ls        
     level_width = len(subsets)
     for ni in range(level_width):
@@ -27,3 +27,16 @@ def main():
 
 
 main()
+
+#%%
+s = "a"
+s.upper()
+
+# %%
+s.isupper()
+
+# %%
+a = "1"
+a.isupper()
+
+# %%

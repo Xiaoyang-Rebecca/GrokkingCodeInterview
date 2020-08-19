@@ -42,3 +42,31 @@ def demo (str):
     return len(stack) ==0
 
 demo(  " {  [   ( ) ]} "    )
+
+
+## method 2
+
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        ls = []
+        dic = {")": "(", "}": "{", "]": "["}
+        top = "0"
+        
+        for p in s:
+            
+            if p in dic.keys(): # closing bracket
+                if len(ls) > 0:
+                    top = ls.pop() # open bracket                   
+                if dic[p] != top:
+                    return False   #not find pair                
+            else:
+                ls.append(p)
+                       
+        if len (ls) >0:
+            return False
+        
+        return True

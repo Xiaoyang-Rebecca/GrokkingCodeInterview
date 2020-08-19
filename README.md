@@ -1,8 +1,12 @@
 # GrokkingCodeInterview
-Contact: Xiaoyang.rebecca.li@gmail.com
 
-Educative.io/Grokking the Coding Interview: Patterns for Coding Questions
-Corresponding of GrokkingCodeInterview to Leetcode
+
+The solution for ["Educative.io/Grokking the Coding Interview: Patterns for Coding Questions"](https://www.educative.io/courses/grokking-the-coding-interview) and their related [Leetcode](https://leetcode.com/) solutions
+* The number ID correspond to the leetcode id
+
+Study use only
+contact: Xiaoyang.rebecca.li@gmail.com
+
 
 ## Pattern: Sliding Window
 * [Maximum Sum Subarray of Size K (easy)](./Patterns/Pattern-Sliding%20Window/Maximum%20Sum%20Subarray%20of%20Size%20K%20(easy).py)
@@ -42,11 +46,11 @@ Corresponding of GrokkingCodeInterview to Leetcode
 * [Binary Tree Level Order Traversal (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Binary%20Tree%20Level%20Order%20Traversal%20(easy).py)
 * [Reverse Level Order Traversal (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Reverse%20Level%20Order%20Traversal%20(easy).py)
 * [Zigzag Traversal (medium)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Zigzag%20Traversal%20(medium).py)
-  - [Leetcode 103. Binary Tree Zigzag Level Order Traversal](./Leetcode/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.py)
-  - [Leetcode 281. Zigzag Iterator](./Leetcode/281.%20Zigzag%20Iterator.py)
+  - [103. Binary Tree Zigzag Level Order Traversal](./Leetcode/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.py)
+  - [281. Zigzag Iterator](./Leetcode/281.%20Zigzag%20Iterator.py)
 * [Level Averages in a Binary Tree (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Level%20Averages%20in%20a%20Binary%20Tree%20(easy).py)  
-  - [Leetcode 637. Average of Levels in Binary Tree](./Leetcode/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py)
-  - [Leetcode 1161. Maximum Level Sum of a Binary Tree](./Leetcode/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py)
+  - [637. Average of Levels in Binary Tree](./Leetcode/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py)
+  - [1161. Maximum Level Sum of a Binary Tree](./Leetcode/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py)
 * [Minimum Depth of a Binary Tree (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Minimum%20Depth%20of%20a%20Binary%20Tree%20(easy).py)
 * [Level Order Successor (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Level%20Order%20Successor%20(easy).py)
 * [Connect Level Order Siblings (medium)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Connect%20Level%20Order%20Siblings%20(medium).py)
@@ -54,13 +58,53 @@ Corresponding of GrokkingCodeInterview to Leetcode
 
   
 ## Pattern: Tree Depth First Search
+```
+   ## Time O()  Space O ()
+
+```
 * [Binary Tree Path Sum (easy)](./Patterns/Pattern-Tree%20Depth%20First%20Search/Binary%20Tree%20Path%20Sum%20(easy).py)
+
 
 ## Patter: Subset
 ```
    ## Time O(2^N)  Space O (^N)
+        0               []                    e.g GivenSet[1,5,3]
+                    copy    add 1
+        1           []   |  [1]
+                   Copy     add 5
+        2         [][1]  |  [5] [1,5]
+                   copy     add 3
+        3  [][1][5][1,5] |  [3][1,3][5,3][1,5,3]
 
 ```
-![Test Image 1](./Figs/subset.PNG)
 * [Subset](./Patterns/Pattern-Subsets/Subset.py)
-  - [Leetcode 78. Subsets](./Leetcode/78.%20Subsets.py)
+  - [78. Subsets](./Leetcode/78.%20Subsets.py)
+* [Subsets With Duplicates (easy)](./Patterns/Pattern-Subsets/Subsets%20With%20Duplicates%20(easy).py)
+  - [90. Subsets II](./Leetcode/90.%20Subsets%20II.py)
+* [Permutations (medium)](./Patterns/Pattern-Subsets/Permutations%20(medium).py)
+  - [46. Permutations](./Leetcode/46.%20Permutations.py)
+  - [47. Permutations](./Leetcode/47.%20Permutations%20II.py)
+* [String Permutations by changing case (medium)](./Patterns/Pattern-Subsets/String%20Permutations%20by%20changing%20case%20(medium).py)
+  - [784. Letter Case Permutation](./Leetcode/784.%20Letter%20Case%20Permutation.py)
+* [Balanced Parentheses (hard)](./Patterns/Pattern-Subsets/Balanced%20Parentheses%20(hard).py)
+  - [22. Generate Parentheses.py](./Leetcode/22.%20Generate%20Parentheses.py)
+
+
+## Pattern: Binary Search
+```
+   ## Time O(logN)  Space O ()
+```
+* [Order-agnostic Binary Search (easy)](./Patterns/Pattern-binary%20search/Order-agnostic%20Binary%20Search%20(easy).py)
+* [Ceiling of a Number (medium)](./Patterns/Pattern-binary%20search/Ceiling%20of%20a%20Number%20(medium).py)
+* [Number Range (medium)](./Patterns/Pattern-binary%20search/Number%20Range%20(medium).py)
+  * [34. Find First and Last Position of Element in Sorted Array](./Leetcode/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)
+## Pattern-Top K element
+```
+   ## Time O(logK)  Space O ()
+   Get largest  k -> minheap, in ascending order
+   Get smallest k -> maxheap, in decending order
+```
+* [Top 'K' Numbers (easy)](./Patterns/Pattern-Top%20K%20element/Top%20'K'%20Numbers%20(easy).py)
+  * []
+* [Kth Smallest Number (easy)](./Leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)
+  * [347. Top K Frequent Elements.py](./Leetcode/347.%20Top%20K%20Frequent%20Elements.py)
