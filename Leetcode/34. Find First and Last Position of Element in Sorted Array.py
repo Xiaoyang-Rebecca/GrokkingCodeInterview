@@ -26,8 +26,7 @@ class Solution(object):
 ''' method 2
 3 binary search  O(3* log(n))
 '''
-class Solution(object):
- 
+class Solution(object): 
    
     def searchRange(self, nums, target):
         """
@@ -37,22 +36,18 @@ class Solution(object):
         """
         l ,r = 0, len(nums)-1
         temp = None
-        mi = 0 
-        while l <= r and mi<20:
+        while l <= r  :
             m = (l + r) //2 
-            mi+=1
-            print(mi,m,)
             if  nums[m] == target :  # find target
                 temp =m     
-                print("m")
                 break
-            elif nums[m] > target: # move to left
+            if nums[m] > target: # move to left
                 r = m-1
             else:
                 l = m+1
+                
         if temp != None:
-            mini ,maxi = temp, temp
-            
+            mini ,maxi = temp, temp            
             # look for i min to target
             if mini > 0:
                 l ,r = 0, temp                

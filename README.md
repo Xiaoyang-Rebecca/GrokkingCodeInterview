@@ -92,12 +92,21 @@ contact: Xiaoyang.rebecca.li@gmail.com
 
 ## Pattern: Binary Search
 ```
-   ## Time O(logN)  Space O ()
+   ## Time O(logN)  Space O (1)
+   while l <=r:            #    l ,r = 0, n-1
+      m = (l+r)//2
+      if too small:   r = m -1
+      elif too big:  l = m +1
+
 ```
 * [Order-agnostic Binary Search (easy)](./Patterns/Pattern-binary%20search/Order-agnostic%20Binary%20Search%20(easy).py)
 * [Ceiling of a Number (medium)](./Patterns/Pattern-binary%20search/Ceiling%20of%20a%20Number%20(medium).py)
 * [Number Range (medium)](./Patterns/Pattern-binary%20search/Number%20Range%20(medium).py)
   * [34. Find First and Last Position of Element in Sorted Array](./Leetcode/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)
+
+* 
+  * [540. Single Element in a Sorted Array](./Leetcode/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)
+* [Minimum Difference Element (medium)](./Patterns/Pattern-binary%20search/Minimum%20Difference%20Element%20(medium).py)
 ## Pattern-Top K element
 ```
    ## Time O(logK)  Space O ()
