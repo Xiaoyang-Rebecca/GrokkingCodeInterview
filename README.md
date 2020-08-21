@@ -107,6 +107,7 @@ contact: Xiaoyang.rebecca.li@gmail.com
 * 
   * [540. Single Element in a Sorted Array](./Leetcode/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)
 * [Minimum Difference Element (medium)](./Patterns/Pattern-binary%20search/Minimum%20Difference%20Element%20(medium).py)
+* 
 ## Pattern-Top K element
 ```
    ## Time O(logK)  Space O ()
@@ -114,6 +115,6 @@ contact: Xiaoyang.rebecca.li@gmail.com
    Get smallest k -> maxheap, in decending order
 ```
 * [Top 'K' Numbers (easy)](./Patterns/Pattern-Top%20K%20element/Top%20'K'%20Numbers%20(easy).py)
-  * []
-* [Kth Smallest Number (easy)](./Leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)
+  * [215. Kth Largest Element in an Array](./Leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)
+* [Kth Smallest Number (easy)]
   * [347. Top K Frequent Elements.py](./Leetcode/347.%20Top%20K%20Frequent%20Elements.py)
