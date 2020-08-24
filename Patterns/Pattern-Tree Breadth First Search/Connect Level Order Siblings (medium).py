@@ -1,3 +1,12 @@
+'''
+Problem Statement #
+Given a binary tree, connect each node with its level order successor. The last node of each level should point to a null node.
+
+Example 1:
+   1 -Null
+ -2--3-Null
+-4--5--6--7-Null 
+'''
 from __future__ import print_function
 from collections import deque
 

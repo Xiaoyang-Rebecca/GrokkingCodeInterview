@@ -55,7 +55,9 @@ contact: Xiaoyang.rebecca.li@gmail.com
 * [Level Order Successor (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Level%20Order%20Successor%20(easy).py)
 * [Connect Level Order Siblings (medium)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Connect%20Level%20Order%20Siblings%20(medium).py)
 
-
+* [Connect All Level Order Siblings (medium)]()
+* []
+  * [199. Binary Tree Right Side View](./
   
 ## Pattern: Tree Depth First Search
 ```
@@ -63,7 +65,8 @@ contact: Xiaoyang.rebecca.li@gmail.com
 
 ```
 * [Binary Tree Path Sum (easy)](./Patterns/Pattern-Tree%20Depth%20First%20Search/Binary%20Tree%20Path%20Sum%20(easy).py)
-
+* [All Paths for a Sum (medium)]
+  * [113. Path Sum II ]
 
 ## Patter: Subset
 ```
@@ -108,6 +111,7 @@ contact: Xiaoyang.rebecca.li@gmail.com
   * [540. Single Element in a Sorted Array](./Leetcode/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)
 * [Minimum Difference Element (medium)](./Patterns/Pattern-binary%20search/Minimum%20Difference%20Element%20(medium).py)
 * 
+
 ## Pattern-Top K element
 ```
    ## Time O(logK)  Space O ()
