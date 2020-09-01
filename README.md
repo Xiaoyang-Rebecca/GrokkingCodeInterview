@@ -12,9 +12,9 @@ contact: Xiaoyang.rebecca.li@gmail.com
 * [Maximum Sum Subarray of Size K (easy)](./Patterns/Pattern-Sliding%20Window/Maximum%20Sum%20Subarray%20of%20Size%20K%20(easy).py)
 * [Smallest Subarray with a given sum (easy)](./Patterns/Pattern-Sliding%20Window/Smallest%20Subarray%20with%20a%20given%20sum%20(easy).py)
 * [Longest Substring with K Distinct Characters (medium)](./Patterns/Pattern-Sliding%20Window/Longest%20Substring%20with%20K%20Distinct%20Characters%20(medium).py)
-
-
-
+* [Longest Subarray with Ones after Replacement (hard)](./Patterns/Pattern-Sliding%20Window/Longest%20Subarray%20with%20Ones%20after%20Replacement%20(hard).py)
+* [Longest Substring with Same Letters after Replacement (hard).py](./Patterns/Pattern-Sliding%20Window/Longest%20Substring%20with%20Same%20Letters%20after%20Replacement%20(hard).py)
+* [No-repeat Substring (hard).py](./Patterns/Pattern-Sliding%20Window/No-repeat%20Substring%20(hard).py)
 ## Pattern: Two Pointers
 
 ## Pattern: Merge Intervals
@@ -55,18 +55,23 @@ contact: Xiaoyang.rebecca.li@gmail.com
 * [Level Order Successor (easy)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Level%20Order%20Successor%20(easy).py)
 * [Connect Level Order Siblings (medium)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Connect%20Level%20Order%20Siblings%20(medium).py)
 
-* [Connect All Level Order Siblings (medium)]()
+* [Connect All Level Order Siblings (medium)](./Patterns/Pattern-Tree%20Breadth%20First%20Search/Connect%20All%20Level%20Order%20Siblings%20(medium)%20.py)
 * []
-  * [199. Binary Tree Right Side View](./
+  * [199. Binary Tree Right Side View](./Leetcode/199.%20Binary%20Tree%20Right%20Side%20View.py)
   
 ## Pattern: Tree Depth First Search
 ```
-   ## Time O()  Space O ()
+   ## Time O(N)  Space O (H),
+    (H)egiht of the tree, (N)umber of nodes
 
 ```
 * [Binary Tree Path Sum (easy)](./Patterns/Pattern-Tree%20Depth%20First%20Search/Binary%20Tree%20Path%20Sum%20(easy).py)
+  * [112. Path Sum](./Leetcode/112.%20Path%20Sum.py)
 * [All Paths for a Sum (medium)]
-  * [113. Path Sum II ]
+  * [113. Path Sum II ](./Leetcode/113.%20Path%20Sum%20II.py)
+* [Sum of Path Numbers (medium)](./Patterns/Pattern-Tree%20Depth%20First%20Search/Sum%20of%20Path%20Numbers%20(medium).py)
+* [Count Paths for a Sum (medium)](./Patterns/Pattern-Tree%20Depth%20First%20Search/Count%20Paths%20for%20a%20Sum%20(medium).py)
+  * [437. Path Sum III](./Leetcode/437.%20Path%20Sum%20III.py)
 
 ## Patter: Subset
 ```
@@ -111,7 +116,10 @@ contact: Xiaoyang.rebecca.li@gmail.com
   * [540. Single Element in a Sorted Array](./Leetcode/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)
 * [Minimum Difference Element (medium)](./Patterns/Pattern-binary%20search/Minimum%20Difference%20Element%20(medium).py)
 * 
+## Twoheaps
 
+
+  * [295. Find Median from Data Stream.py](./Leetcode/295.%20Find%20Median%20from%20Data%20Stream.py)
 ## Pattern-Top K element
 ```
    ## Time O(logK)  Space O ()
@@ -120,5 +128,5 @@ contact: Xiaoyang.rebecca.li@gmail.com
 ```
 * [Top 'K' Numbers (easy)](./Patterns/Pattern-Top%20K%20element/Top%20'K'%20Numbers%20(easy).py)
   * [215. Kth Largest Element in an Array](./Leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)
-* [Kth Smallest Number (easy)]
+* [Kth Smallest Number (easy)](./Patterns/Pattern-Top%20K%20element/Kth%20Smallest%20Number%20(easy).py)
   * [347. Top K Frequent Elements.py](./Leetcode/347.%20Top%20K%20Frequent%20Elements.py)
